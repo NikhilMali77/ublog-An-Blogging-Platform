@@ -1,0 +1,83 @@
+.blog-preview {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 290px;
+  height: 350px; /* Adjusted height to give more space for the image and content */
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(145deg, rgb(139, 88, 89), rgb(59, 33, 12));
+  color: white;
+}
+
+.blog-preview h2{
+  text-align: left;
+}
+
+.imgDiv {
+  width: 100%;
+  height: 50%; /* Adjusted to occupy the top half of the card */
+  overflow: hidden;
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit:fill; /* Ensures the image covers the div entirely */
+  border-radius: 0; /* Removed the border-radius to make the image edges consistent */
+  background-color: #ffff011f;
+}
+
+.blog-details {
+  padding: 10px;
+  height: 70px /* Adjusted to occupy space between the image and actions */
+}
+
+.blog-details h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.blog-details p {
+  font-size: 0.9em;
+  color: #d1d1d1;
+  text-align: left;
+}
+
+.blog-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px; /* Adjusted to occupy the bottom space for actions */
+}
+
+.bookmark-btn,
+.more-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4em;
+}
+
+.bookmark-btn:hover,
+.more-btn:hover {
+  color: #ffdd57;
+}
+
+@media (max-width: 440px) {
+  .blog-preview {
+    width: 300px;
+  }
+}
+
+@media (max-width: 391px) {
+  .blog-preview {
+    width: 240px;
+  }
+}

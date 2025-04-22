@@ -1,0 +1,30 @@
+.main {
+  /* height: 40vh; */
+  margin-bottom: 100px;
+}
+.add-note{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.add-note input {
+  width: 50%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 20px;
+  cursor: none;
+  caret-color: transparent;
+  box-shadow: 0px 0px 0px 1.6px rgba(184, 173, 173, 0.6);
+}
+.add-note input::placeholder{
+  font-size: 16px;
+
+}
+.add-note button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+}

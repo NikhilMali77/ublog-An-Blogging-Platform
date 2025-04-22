@@ -1,0 +1,47 @@
+.home {
+  display: flex;
+  /* overflow-y: auto; */
+  background-color: #202020;
+  height: 100vh;
+}
+
+.home.light-mode {
+  background-color: #b8c6c7;
+}
+
+.left {
+  width: 10%;
+}
+.left.hidden {
+  width: 0;
+}
+
+.right {
+  width: 85%;
+  margin: auto;
+  overflow-y: auto;
+  height: 100vh;
+}
+.right.expanded {
+  width: 90%;
+}
+
+.right::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media (max-width: 782px) {
+  .lhs {
+    width: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  .left {
+    width: 0;
+  }
+  .right{
+    width: 95%;
+  }
+}

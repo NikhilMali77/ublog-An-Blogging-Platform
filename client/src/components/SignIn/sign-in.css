@@ -1,0 +1,81 @@
+.sign-in-container {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.mainC.light-mode .sign-in-container{
+  background-color: #248d92;
+}
+/* Hover effect for the container */
+.sign-in-container:hover {
+  box-shadow: 0 0 8px 4px rgba(36, 141, 146, 0.3);
+}
+.mainC{
+  height: 80vh;
+  align-content: center;
+}
+h2 {
+  text-align: center;
+  /* color: white; */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  /* color: white; */
+}
+
+input {
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.SignInBtn {
+  width: 80px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.SignInBtn:hover {
+  background-color: #0056b3;
+}
+
+.back{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: rgb(106, 209, 140);;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnGrp{
+  display: flex;
+
+}
+
+@media (max-width: 440px) {
+  .sign-in-container{
+    width: 90%;
+  }
+}

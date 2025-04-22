@@ -1,0 +1,77 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: #103b3d;
+  padding: 40px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+}
+.modal.light-mode{
+  background-color: #80aeaf;
+  color: black;
+  z-index: 1000;
+}
+.modal h2{
+  margin-bottom: 30px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  margin: 10px 0;
+  border-radius: 5px;
+  outline: none;
+}
+.btnClass{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.modBtn {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modBtn[type="button"]:nth-child(2) {
+  background-color: #6c757d;
+}
+
+@media (max-width: 440px) {
+  .modal{
+    width: 70%;
+  }
+}

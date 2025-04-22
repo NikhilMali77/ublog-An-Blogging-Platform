@@ -1,0 +1,71 @@
+
+.mainA{
+  background-color: #202020;
+  height: 100vh;
+  overflow-y: auto;
+  margin-bottom: 110px;
+}
+.mainA.light-mode{
+  background-color: transparent;
+}
+.mainA.light-mode .blogForm{
+  background-color: #80aeaf;
+  border: none;
+}
+
+.heading{
+  margin-top: 0px;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.blogForm {
+  max-width: 700px;
+  margin: auto auto 110px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+form .tox {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}

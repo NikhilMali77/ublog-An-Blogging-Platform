@@ -1,0 +1,96 @@
+.saved-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: Arial, sans-serif;
+}
+.saved-posts::-webkit-scrollbar{
+  width: 0;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+  width: 97%;
+  position: sticky;
+  top: 0;
+  background-color: #202020;
+}
+.saved-posts.light-mode .options{
+  background-color: #b8c6c7;
+}
+.option {
+  cursor: pointer;
+  padding: 20px 20px;
+  width: 20%;
+  transition: color 0.3s, border-bottom 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: #657786;
+  text-align: center;
+}
+.saved-posts.light-mode .option{
+  color: #202020;
+}
+.saved-posts.light-mode .option:hover{
+  color: #1da1f2;
+}
+.saved-posts.light-mode .option.active {
+  color: #1da1f2;
+  border-bottom: 1px solid #1da1f2;
+}
+.option:hover {
+  color: #1da1f2;
+}
+
+.option.active {
+  color: #1da1f2;
+  border-bottom: 1px solid #1da1f2;
+}
+
+.content {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.blogs-section,
+.notes-section {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  margin-bottom: 100px;
+
+  flex-wrap: wrap;
+}
+
+
+.blog-item{
+  /* padding: 10px; */
+  text-align: center;
+  transition: all ease-in 1s;
+  /* margin: 10px; */
+
+}
+
+.note-item {
+  padding: 10px;
+  width: 100%;
+  margin-top: 0;
+}
+.no-saved-blogs, .no-saved-notes {
+  text-align: center;
+  color: #777;
+}
+
+.placeholder-image {
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+/* Additional styling as per your design requirements */
