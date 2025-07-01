@@ -120,4 +120,4 @@ You can deploy:
 
 ## 🙌 Author
 
-Built with 💙 by **Nikhil Mali**
+Built with 💙 by **Truptesh Tare** & **Nikhil Mali** 
